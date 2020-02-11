@@ -1,2 +1,2 @@
-include 'service1'
-include 'service2'
+include 'producer'
+include 'javaConsumer'
