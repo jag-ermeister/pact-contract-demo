@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "JSConsumer"
+  },
+  "provider": {
+    "name": "provider1"
+  },
+  "interactions": [
+    {
+      "description": "a greeting by awd",
+      "request": {
+        "method": "GET",
+        "path": "/api/stuff"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "id": 1,
+          "name": "jeremy",
+          "notes": "is awesome"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

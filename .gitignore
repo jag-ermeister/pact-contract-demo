@@ -1,2 +1,6 @@
 .idea/
 .gradle/
+jsConsumer/node_modules/
+jsConsumer/logs/
+*DS_Store*
+jsConsumer/.nvmrc
